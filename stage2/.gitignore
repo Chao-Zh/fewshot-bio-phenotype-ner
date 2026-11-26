@@ -1,0 +1,32 @@
+# ===== 保密数据与派生文本产物（严禁上传公共仓库）=====
+*.jsonl
+*.obo
+*.zip
+*.pdf
+*.csv
+pdf_text.txt
+candidates_*.jsonl
+submit_pred_*.jsonl
+*_workorder.tsv
+*_unmapped.tsv
+lexicon.tsv
+lexicon.json
+lexicon_aug.json
+hpo_subgraph.json
+metrics.json
+cv_recall.json
+lexicon_scale_recall.*
+exp_*_recall.json
+baseline_report.md
+lexicon_aug_report.md
+
+# ===== 运行产物目录（本地生成，不入库）=====
+output/
+output_lex/
+stage2_delivery/
+
+# ===== Python =====
+__pycache__/
+*.pyc
+.venv/
+.env
